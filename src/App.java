@@ -58,7 +58,7 @@ public class App {
                 .map(Map.Entry::getKey)
                 .orElse("Nincs adat");
 
-            System.out.println("A leggyakrabban bérelt yacht a: " + legtobbszorBereltYacht);
+            System.out.println("A leggyakrabban bérelt Yacht a: " + legtobbszorBereltYacht);
 
             double atlagosIdotartam = berlesek.stream()
                 .mapToInt(Berles::getDays)
